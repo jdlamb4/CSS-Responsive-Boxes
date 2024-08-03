@@ -3,7 +3,25 @@ body {
 }
 
 * {
-  border: 1px solid teal;
+  border: 1px solid deepskyblue;
+}
+
+header {
+  min-height: 10vh;
+  flex-grow: 1;
+  background-color: blueviolet;
+}
+
+main {
+  min-height: 70vh;
+  flex-grow: 5;
+  background-color: aqua;
+}
+
+footer {
+  min-height: 10vh;
+  flex-grow: 1;
+  background-color: orange;
 }
 
 .container {
@@ -12,15 +30,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-
-header, footer  {
-  flex-grow: 1;
-}
-
-main {
-  flex-grow:3;
-}
-
 
 @media (min-width: 600px) {
   .container {
